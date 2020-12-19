@@ -9,10 +9,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tamarachuma/tamarachuma.github.io"
+    "url": "git+https://github.com/cobidev/simplefolio"
   },
   "keywords": [],
   "author": "Tamara Chumashvili",
+<<<<<<< HEAD
+=======
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cobidev/simplefolio/issues"
+  },
+  "homepage": "https://github.com/cobidev/simplefolio#readme",
+>>>>>>> parent of 24f5174... Update json file
   "devDependencies": {
     "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^3.6.0",
