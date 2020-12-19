@@ -9,15 +9,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cobidev/simplefolio"
+    "url": "git+https://github.com/tamarachuma/tamarachuma.github.io"
   },
   "keywords": [],
   "author": "Tamara Chumashvili",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/cobidev/simplefolio/issues"
-  },
-  "homepage": "https://github.com/cobidev/simplefolio#readme",
   "devDependencies": {
     "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^3.6.0",
