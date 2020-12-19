@@ -3,12 +3,9 @@
   "version": "1.0.1",
   "description": "personal portfolio",
   "main": "index.js",
-  "homepage": "https://tamarachuma.github.io/",
   "scripts": {
     "start": "webpack-dev-server --config webpack.dev.js --open",
-    "build": "webpack --config webpack.prod.js",
-    "predeploy": "npm build",
-    "deploy": "gh-pages -d build"
+    "build": "webpack --config webpack.prod.js"
   },
   "keywords": [],
   "author": "Tamara Chumashvili",
@@ -17,7 +14,6 @@
     "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^3.6.0",
     "file-loader": "^6.0.0",
-    "gh-pages": "^3.1.0",
     "html-loader": "^1.1.0",
     "html-webpack-plugin": "^4.3.0",
     "mini-css-extract-plugin": "^0.9.0",
