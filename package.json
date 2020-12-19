@@ -1,7 +1,7 @@
 {
-  "name": "myFolio",
+  "name": "myporfolio",
   "version": "1.0.1",
-  "description": "My personal Portfolio!",
+  "description": "personal portfolio",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --config webpack.dev.js --open",
@@ -9,11 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tamarachuma/tamarachuma.github.io"
+    "url": "git+https://github.com/cobidev/simplefolio"
   },
   "keywords": [],
-  "author": "Tamara Chumashvili"
-},
+  "author": "Jacobo Martinez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cobidev/simplefolio/issues"
+  },
+  "homepage": "https://github.com/cobidev/simplefolio#readme",
   "devDependencies": {
     "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^3.6.0",
