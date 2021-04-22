@@ -1,7 +1,7 @@
 import initTilt from './js/tilt';
 import initSr from './js/sr';
-import './style/main.scss';
 
+import './style/main.scss';
 
 $('a[href^="#"]').on('click', function(event) {
   var target = $(this.getAttribute('href'));
@@ -22,7 +22,7 @@ $('a[href^="#"]').on('click', function(event) {
 
 document.addEventListener('DOMContentLoaded',function(event){
   // array with texts to type in typewriter
-  var dataText = [ "a Web developer.", "a Software engineer.", "a Computer programmer."];
+  var dataText = [ "a Web developer.", "a Software engineer.", "a Computer programmer.", "an Artist."];
   
   // type one text in the typwriter
   // keeps calling itself until the text is finished

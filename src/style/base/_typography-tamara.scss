@@ -6,7 +6,7 @@ h1 {
 
 p,
 a {
-  font-family: 'tradegothiclt-bold', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: $default-font-size;
 }
 
@@ -22,14 +22,6 @@ a:hover {
   transition: all 0.3s ease-in-out;
 }
 
-
-#greet {
-  width: 175px;
-  height: auto;
-  margin-bottom: -21px; 
-  margin-left: -47px;
-}
-
 .section-title {
   margin: 0px;
   margin-bottom: 4.5rem;
@@ -38,12 +30,12 @@ a:hover {
   text-transform: uppercase;
 
   @include respond(phone) {
-    font-size: 2rem;
+    font-size: 2.8rem;
   }
 }
 
 .dark-blue-text {
-  color: #000; 
+  color: $dark-blue-text;
 }
 
 .text-color-main {
